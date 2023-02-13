@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="ISO-8859-1">
+<title>Insert title here</title>
+<link rel="stylesheet" type="text/css" href="css/addtrabsport.css">
+
+
+
+</head>
+<body>
+
+
+<div class="dir">
+<h1>Add New Transport</h1>
+
+     <form action="TransportController"  method="get">
+     
+      <div class="first">
+      
+      <p>Transport_type : </p><select name="Transport_type" style="width:150px"  > 
+       
+        <option style="display:none">none</option>
+        <option>Truck</option>      
+        <option>Bus</option>      
+        <option>Delivery_Van</option>     
+        <option>Lorry</option>
+        <option>Trailer</option>
+        <option>Tractor</option>
+        <option>Other</option>
+     
+     </select><br>
+     
+          <p>Enter Vehical NO. : </p><input type="text" placeholder="Enter Vehical NO." name="number" required="required"><br>
+          </div>>
+          
+          <div  class="secound">
+          <p>Departure : </p><input type="text" placeholder="Departure" name="dep"><br>
+          <p>Destination : </p><input type="text" placeholder="Destination" name="des"><br><br>
+          </div>
+         
+          <input type="submit" value="Save" class="btn">
+          
+     </form>
+</div>>
+
+</body>
+</html>
